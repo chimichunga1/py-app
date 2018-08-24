@@ -1,0 +1,9 @@
+Help users correct spelling errors, recognize the difference among names, brand names, and slang, as well as understand homophones as they’re typing
+
+5,000 transactions per month, up to 7 per second. Trial keys expire after a 7 day period.
+
+Endpoint: https://api.cognitive.microsoft.com/bing/v5.0/spellcheck
+
+Key 1: 5ad4d88a02384a7a835ca3079b420815
+
+Key 2: 53bcbb4e73204766ae605c91b8777036

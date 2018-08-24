@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="./js/try.js"></script>
+  <script src="./js/require.min.js"></script>
+
+</head>
+
+
+<body ng-app="myApp">
+<div class="ui-widget" ng-controller="HeaderCtrl">
+
+<div ng-controller="ExampleController">
+<form ng-submit="submit()">
+  Enter text and hit enter:
+
+
+
+
+<!--   <pre>list={{list}}</pre> -->
+  <label for="tags">Search: </label>
+  <input id="tags" placeholder="Enter Your Search" ng-model="text" name="text">
+  <input type="submit" id="submit" value="Submit"/>
+
+</form>
+
+
+
+<table>
+    <tr ng-repeat='item in searchResult'>
+      <th>{{item}}</th>
+    </tr>
+</table>
+</div>
+
+  
+</div>
+
+
+
+
+</body>
+</html>
